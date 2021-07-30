@@ -1,0 +1,72 @@
+/*---------- google font-------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* -----------End-------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-bg{
+    background-color: #264653;
+}
+.bike-buy-btn{
+    background-color: #E76F51;
+    padding: 10px 46px;
+}
+/*-------- common style ---- ---*/
+.title-text{
+    color: #E76F51;
+}
+.img-scels{
+    filter: grayscale(100%);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/* ---------common style end --- */
+.card{
+    align-items: center;
+    padding: 30px 0;
+}
+.fris-img, .second-img{
+    width: 150px;
+}
+.last-img{
+    width: 200px;
+    clip-path: circle();
+}
+.good{
+    width: 22px;
+    color: #E77C40;
+}
+.bad{
+    color: #E77C40;
+}
+.clients-name{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.clients-profetion{
+    font-size: 14px;
+    color: #252B42;
+    padding: 10px 0;
+}
+.Frequently-main{
+    width: 1125px;
+    height: 495px;
+    align-items: center;
+    margin-top: 20px;
+}
+.Frequently-img{
+    width: 435px;
+    height: 432px;
+    position: initial;
+    margin: 0 30px;
+}
+.frequently-questions{
+    margin-left: 50px;
+    margin-top: 50px;
+}
