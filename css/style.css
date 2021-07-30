@@ -3,13 +3,34 @@
 /* -----------End-------- */
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    max-width: 100%;
 }
-.header-bg{
+/* ------------------
+heading styles
+--------------- */
+.header-info{
     background-color: #264653;
+    color: white;
+    margin-bottom: 60px;
+    width: 100%;
 }
-.bike-buy-btn{
-    background-color: #E76F51;
-    padding: 10px 46px;
+.written-part{
+    padding-top: 100px;
+}
+.btn-btn-header{
+    background-color:#E76F51 ;
+    color: white;
+    padding: 5px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+/* fetured bike */
+.hunda{
+    filter: grayscale(100%);
+}
+hr{
+    color: #E76F51;
 }
 /*-------- common style ---- ---*/
 .title-text{
@@ -54,19 +75,10 @@ a{
     color: #252B42;
     padding: 10px 0;
 }
-.Frequently-main{
-    width: 1125px;
-    height: 495px;
-    align-items: center;
-    margin-top: 20px;
-}
-.Frequently-img{
-    width: 435px;
-    height: 432px;
-    position: initial;
-    margin: 0 30px;
-}
-.frequently-questions{
-    margin-left: 50px;
-    margin-top: 50px;
+/* ------------
+fap section side
+--------------- */
+.faq{
+    margin-top: 140px !important;
+    margin-bottom: 100px !important;
 }
